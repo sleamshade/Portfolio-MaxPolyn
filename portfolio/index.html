@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Максима Полынцева | Начинающий фронтенд-разработчик</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Анимированный фон -->
+    <div class="animated-bg"></div>
+    <div class="grid-pattern"></div>
+    <div class="particles-container"></div>
+
+    <!-- Лоадер -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-text">&lt;MaxPolyn /&gt;</div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="logo">
+                    <div class="logo-particles">
+                        <div class="logo-particle"></div>
+                        <div class="logo-particle"></div>
+                        <div class="logo-particle"></div>
+                        <div class="logo-particle"></div>
+                        <div class="logo-particle"></div>
+                        <div class="logo-particle"></div>
+                        <div class="logo-particle"></div>
+                        <div class="logo-particle"></div>
+                    </div>
+                    Max<span>Polyn</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Главная</a></li>
+                    <li><a href="#about" class="nav-link">Обо мне</a></li>
+                    <li><a href="#projects" class="nav-link">Проекты</a></li>
+                    <li><a href="#skills" class="nav-link">Навыки</a></li>
+                    <li><a href="#contact" class="nav-link">Контакты</a></li>
+                </ul>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Фоновые элементы -->
+        <div class="hero-bg-elements">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="floating-shape shape-4"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-dots"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="typing-text"></span>
+                        <span class="typing-cursor"></span>
+                    </h1>
+                    <p class="hero-description">
+                    Студент 1 курса КИТЭК, группа 11ИСР.
+                    Учусь создавать современные, адаптивные веб-сайты с использованием HTML, CSS и JavaScript.
+                    Стремлюсь к постоянному развитию в сфере веб-разработки.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Мои будущие проекты</a>
+                    <a href="#contact" class="btn btn-secondary">Связаться со мной</a>
+                </div>
+                </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-frame"></div>
+                    <div class="avatar-ring avatar-ring-1"></div>
+                    <div class="avatar-ring avatar-ring-2"></div>
+                    <div class="avatar-ring avatar-ring-3"></div>
+                    <div class="avatar-glow"></div>
+                    <img src="images/avatar.png" alt="Студент программист">
+                    <div class="hero-badge">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>1 курс, 11ИСР</span>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <strong>HTML, CSS</strong><br>Базовая верстка
+                        </div>
+                        <div class="hero-stat">
+                            <strong>JavaScript</strong><br>Первые проекты
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title reveal">Обо мне</h2>
+            <div class="about-content reveal">
+                <div class="about-text">
+                    <h3>Привет! Я Максим Полынцев</h3>
+                    <p>
+                        Я студент 1 курса КИТЭК в Омске, обучаюсь в группе 11ИСР по специальности 
+                        "Информационные системы и программирование". Уже пол года активно изучаю веб-разработку 
+                        и фронтенд-технологии.
+                    </p>
+                    <p>
+                        Мой интерес к программированию начался с желания создавать что-то видимое и полезное. 
+                        Веб-разработка привлекла меня возможностью сразу видеть результаты своей работы и 
+                        постоянным развитием технологий в этой сфере.
+                    </p>
+
+                    <!-- Кодовый блок -->
+                    <div class="code-block">
+                        <div class="code-header">
+                            <span class="code-dot red"></span>
+                            <span class="code-dot yellow"></span>
+                            <span class="code-dot green"></span>
+                            <span class="code-filename">developer.js</span>
+                        </div>
+                        <pre class="code-content"><code>const developer = {
+    name: "Максим Полынцев",
+    role: "Frontend Developer",
+    skills: ["HTML", "CSS", "JavaScript"],
+    learning: true,
+    passionate: true
+};
+
+developer.buildAwesomeThings();</code></pre>
+                    </div>
+
+                    <p>
+                        Помимо учебы в колледже, я самостоятельно изучаю современные подходы к верстке,
+                        основы JavaScript и стремлюсь к созданию чистого, семантического кода.
+                        Верю, что постоянная практика и обучение - ключ к успеху в IT-сфере.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat" data-count="6">
+                            <div class="stat-numbers">
+                                <span class="stat-number counter">0</span>
+                                <span class="stat-number">+</span>
+                            </div>
+                            <span class="stat-label">месяцев обучения</span>
+                        </div>
+                        <div class="stat" data-count="1">
+                            <div class="stat-numbers">
+                                <span class="stat-number counter">0</span>
+                            </div>
+                            <span class="stat-label">курс КИТЭК</span>
+                        </div>
+                        <div class="stat" data-count="11">
+                            <div class="stat-numbers">
+                                <span class="stat-number counter">0</span>
+                                <span class="stat-number">ИСР</span>
+                            </div>
+                            <span class="stat-label">учебная группа</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="education-card">
+                        <div class="edu-header">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Образование</h4>
+                        </div>
+                        <div class="edu-content">
+                            <div class="edu-item">
+                                <h5>КИТЭК, Омск</h5>
+                                <p>1 курс, группа 11ИСР</p>
+                                <p>Специальность: Информационные системы и программирование</p>
+                                <span class="edu-year">2025-2029</span>
+                            </div>
+                            <div class="edu-item">
+                                <h5>Фронтенд-разработка</h5>
+                                <p>Самостоятельное обучение</p>
+                                <p>HTML, CSS, JavaScript</p>
+                                <span class="edu-year">6 месяцев</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title reveal">Мои проекты</h2>
+            <div class="projects-coming reveal">
+                <div class="coming-soon">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Проекты в разработке</h3>
+                    <p>
+                        В данный момент я активно учусь и практикуюсь. Здесь скоро появятся мои первые 
+                        серьезные проекты, созданные с использованием HTML, CSS и JavaScript.
+                    </p>
+                    <p>
+                        Я работаю над несколькими учебными проектами, которые помогут мне закрепить 
+                        полученные знания и продемонстрировать свои навыки в веб-разработке.
+                    </p>
+                    <div class="projects-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Адаптивный лендинг</h4>
+                                <p>Планируется</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Интерактивное веб-приложение</h4>
+                                <p>Планируется</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Портфолио сайт</h4>
+                                <p>Завершено ✓</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title reveal">Мои навыки</h2>
+            <div class="skills-content reveal">
+                <div class="skills-list">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Фронтенд-разработка</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>HTML5</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span>CSS3</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span>JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 65%"></div>
+                                </div>
+                                <span>60%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span>Адаптивная верстка</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Инструменты</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>Visual Studio Code</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span>Git & GitHub</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span>Chrome DevTools</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span>Figma</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 60%"></div>
+                                </div>
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="learning-now">
+                    <h3><i class="fas fa-graduation-cap"></i> В планах на обучение</h3>
+                    <div class="learning-items">
+                        <div class="learning-item tilt-card">
+                            <i class="fab fa-react"></i>
+                            <div>
+                                <h4>React.js</h4>
+                                <p>Планирую изучать в ближайшее время</p>
+                            </div>
+                        </div>
+                        <div class="learning-item tilt-card">
+                            <i class="fab fa-sass"></i>
+                            <div>
+                                <h4>SASS/SCSS</h4>
+                                <p>Для более эффективной работы со стилями</p>
+                            </div>
+                        </div>
+                        <div class="learning-item tilt-card">
+                            <i class="fas fa-server"></i>
+                            <div>
+                                <h4>Node.js основы</h4>
+                                <p>Чтобы понимать full-stack разработку</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title reveal">Контакты</h2>
+            <div class="contact-content reveal">
+                <div class="contact-info">
+                    <div class="contact-item pulse-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>smellovsky@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item pulse-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Телефон</h3>
+                            <p>+7 953 393 48 54</p>
+                        </div>
+                    </div>
+                    <div class="contact-item pulse-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Город</h3>
+                            <p>Омск, Россия</p>
+                        </div>
+                    </div>
+                    <div class="contact-item pulse-icon">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div>
+                            <h3>Образование</h3>
+                            <p>КИТЭК, 1 курс, 11ИСР</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://t.me/qpoqopoqp" target="_blank" class="social-link">
+                            <i class="fab fa-telegram"></i>
+                            <span class="social-tooltip">@qpoqopoqp</span>
+                        </a>
+                        <a href="https://vk.com/haaades" target="_blank" class="social-link">
+                            <i class="fab fa-vk"></i>
+                            <span class="social-tooltip">haaades</span>
+                        </a>
+                        <a href="https://discord.com/users/sleamshade" target="_blank" class="social-link">
+                            <i class="fab fa-discord"></i>
+                            <span class="social-tooltip">sleamshade</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Напишите мне</h3>
+                    <p>Заинтересованы в сотрудничестве или хотите обсудить проект? Свяжитесь со мной!</p>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Ваш Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <h4>Навигация</h4>
+                    <a href="#home">Главная</a>
+                    <a href="#about">Обо мне</a>
+                    <a href="#projects">Проекты</a>
+                    <a href="#skills">Навыки</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+                <div class="footer-logo">
+                    <a href="#home" class="logo">
+                        <div class="logo-particles">
+                            <div class="logo-particle"></div>
+                            <div class="logo-particle"></div>
+                            <div class="logo-particle"></div>
+                            <div class="logo-particle"></div>
+                            <div class="logo-particle"></div>
+                            <div class="logo-particle"></div>
+                            <div class="logo-particle"></div>
+                            <div class="logo-particle"></div>
+                        </div>
+                        Max<span>Polyn</span>
+                    </a>
+                    <p>Студент 1 курса КИТЭК,<br>начинающий фронтенд‑разработчик</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контактная информация</h4>
+                    <p><i class="fas fa-envelope"></i> smellovsky@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +7 953 393 48 54</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Омск, Россия</p>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; <span id="currentYear"></span> Полынцев Максим. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
